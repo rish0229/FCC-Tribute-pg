@@ -1,0 +1,82 @@
+:root {
+  font-size: 15px;
+}
+body {
+  margin: 0;
+  font-family: 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif;
+}
+* {
+  box-sizing: border-box;
+}
+.heading,
+.text-container {
+  font-size: 1.05rem;
+  line-height: 25px;
+  color: rgb(90, 89, 89);
+}
+#title {
+  text-align: center;
+}
+#main {
+  background: #eeeeee;
+  border-radius: 5px;
+  margin: 30px 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 15px;
+}
+h1 {
+  font-size: 2.6rem;
+  margin-bottom: 2px;
+}
+#img-div {
+  background: white;
+  width: 100%;
+  padding: 0 10px;
+  text-align: center;
+}
+#image {
+  max-width: 100%;
+}
+.text-container {
+  padding: 0 30px;
+  margin: -5px;
+}
+#tribute-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#topic {
+  font-weight: bold;
+  color: black;
+  font-size: 1.25rem;
+  margin: 50px 0px 30px 0px;
+}
+.list {
+  /* background: yellow; */
+  font-size: 1.05rem;
+  line-height: 25px;
+  max-width: 563px;
+  color: rgb(80, 78, 78);
+}
+li {
+  margin-bottom: 20px;
+}
+b {
+  color: black;
+}
+.closing-remarks {
+  /* background: red; */
+  max-width: 553px;
+  padding-left: 14px;
+  margin-bottom: 18px;
+}
+.end {
+  text-align: center;
+  font-size: 1.2rem;
+  color: #3b3b3b;
+  font-weight: 100;
+}
